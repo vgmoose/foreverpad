@@ -4,16 +4,19 @@ h2 {
 	color: darkblue;
 }
 
+div {
+	font-family: arial, helvetica, sans-serif;
+	text-align: center;	
+}
+
 
 .center {
     text-align: center;
 }
 
 textarea {
-	width: 500px;
-	height: 500px;
     font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
-    height: 200px;
+    height: 700px;
     width: 500px;
     border: 1px solid black;
     text-align: left;

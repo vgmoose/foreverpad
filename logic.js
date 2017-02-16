@@ -14,14 +14,17 @@ function init()
 
 function loadFromURL()
 {
-	var content = atob(window.location.hash.substr(1));
+	var lzstring = LZString.decompressFromEncodedURIComponent(window.location.hash.substr(1));
+	var content = lzstring;
 	document.getElementById("code").value = content;
 }
 
 function setToURL()
 {
 	doNotUpdate = true;
-	var url = btoa(document.getElementById("code").value);
+	var lzstring = LZString.compressToEncodedURIComponent(document.getElementById("code").value);
+
+	var url = lzstring;
 	window.location.hash = "";
 	window.location.hash = url;
 
