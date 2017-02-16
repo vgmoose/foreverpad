@@ -1,5 +1,5 @@
 # foreverpad
-ForeverBin is a website that will permanently "store" text/pastes. It works by storing everything directly in the URL. This means that once a URL is generated, it cannot ever be removed or taken down. All of the information inside of the paste is stored inside of the URL.
+Forever Pad is a website that will permanently "store" text/pastes. It works by storing everything directly in the URL. This means that once a URL is generated, it cannot ever be removed or taken down. All of the information inside of the paste is stored inside of the URL.
 
 ## How to use
 [Visit the website here](https://vgmoose.github.io/foreverpad), enter some text, and then copy the URL to send it to someone else. As you type, the URL will change.
